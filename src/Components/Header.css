@@ -1,0 +1,254 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Poppins;
+}
+h1{
+    font-size: 40px;
+    font-family:Audiowide;
+}
+p{
+    font-size: 22px;
+    line-height: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color:#e6ece6; */
+    /* background-color: transparent; */
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+}
+.logo {
+    flex: 1 1 auto;
+    margin-top: 8px;
+    margin-right: 35%;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(248, 10, 10);
+}
+img{
+    width: 20%;
+}
+a{
+    margin: 15px;
+    color: rgb(13, 241, 230);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+a:hover{
+    /* color: #f3f7f6; */
+    color: #fff;
+    text-shadow: 0 0 10px rgb(227, 231, 228), 0 0 20px rgb(231, 236, 231), 0 0 40px rgb(242, 247, 241);
+}
+.banner-area{
+    position: relative;
+    /* background-image: url(https://i.postimg.cc/GtRM7mdX/1.jpg); */
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-area, .port-area, .service-area, .contact-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 650px;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+    /* background-color: #7de1a1; */
+}        
+.about-area{
+    /* background-color: #7de1a1; */
+    background-image: url("https://i.pinimg.com/originals/05/70/e4/0570e4c9efe9324cc9aac5d3c2ba45b8.jpg");
+}
+.port-area{
+    background-color: #f16ca9;
+    color: #fff;
+}
+.service-area{
+    background-color: #269fb4;
+}
+.contact-area{
+    background-color: #3c8ecc;
+    color: #fff;
+}
+.about{
+    color:white;
+    font-size: 18px;
+}
+
+.card{
+    height: 400px;
+}
+.textp{
+    font-size: 12px;
+    line-height: 20px;
+}
+Button{
+    margin-top:'10px';
+    height: 30px;
+    width: 50px;
+
+}
+.card-img-top{
+    height: 400px;
+}
+/* .card-desk{
+    margin-right: 300px;
+} */
+
+@media (max-width:850px){
+    .textp{
+        font-size: 8px;
+        line-height: 18px;
+    }
+    .card{
+        height: 320px;
+
+    }
+    Button{
+        height: 30px;
+        width: 50px;
+        font-size: 12px;
+    }
+    .card-img-top{
+        height: 300px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 25px;
+    
+    }
+}
+
+@media (max-width:800px){
+
+    h5{
+        font-size: 14px;
+    }
+
+    .textp{
+        font-size: 6px;
+        line-height: 12px;
+    }
+    .card{
+        height: 250px;
+
+    }
+    Button{
+        height: 28px;
+        width: 46px;
+        font-size: 10px;
+    }
+.card-img-top{
+    height: 70px;
+}    
+h1{
+    font-size: 23px;
+}
+h3{
+    font-size: 23px;
+
+}
+}
+@media(max-width:600px){
+    h5{
+        font-size: 12px;
+    }
+
+    .textp{
+        font-size: 5px;
+        line-height: 10px;
+    }
+    .card{
+        height: 170px;
+        width: 180px;
+
+    }
+   Button{
+        height: 15px;
+        width: 20px;
+        font-size: 40px;
+    }
+.card-img-top{
+    height: 50px;
+}  
+   
+    h1{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 18px;
+
+    }
+}
+
+
+
+/* @media (max-width:797){
+    .textp{
+        font: 5px;
+        line-height: 5px;
+    }
+    .card{
+        height: 150px;
+    }
+    .btn{
+        height: 23px;
+        width: 40px;
+        font-size: 10px;
+    }
+
+}
+@media (max-width:750){
+    .textp{
+        font: 5px;
+        line-height: 5px;
+    }
+    .card{
+        height: 100px;
+    }
+    .btn{
+        height: 23px;
+        width: 40px;
+        font-size: 10px;
+    }
+    .card-img.top{
+        height: 200px;
+    }
+
+}
+@media(max-width:650){
+    .card-img.top{
+        height: 100px;
+    }
+} */
+
